@@ -1,0 +1,111 @@
+.tool-1 {
+  background-color: rgb(255, 255, 255);
+  width: 20px;
+  height: 20px;
+  border: solid;
+  color: rgb(0, 0, 0);
+}
+
+header {
+  background-color: rgb(74, 228, 228);
+}
+
+body {
+  font-family: Roboto;
+}
+
+.outputColumn {
+  width: 90vw;
+  height: 100px;
+  resize: vertical !important;
+}
+
+.leftInputColumn, .rightInputColumn {
+  width: 45vw;
+  min-height: 50px;
+  margin: auto;
+}
+
+.leftInputColumn, .midInputColumn {
+  resize: vertical !important;
+}
+
+.upperDiv {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.upperMidDiv, .lowerMidDiv {
+  display: flex;
+}
+
+.midInputColumn {
+
+  min-height: 50px;
+}
+
+p {
+  display: inline;
+}
+
+textarea {
+  resize: none !important;
+}
+
+.toolbarButton {
+  width: 20px;
+  height: 20px;
+}
+
+.unselectable {
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+footer {
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
+  opacity: 80%;
+}
+footer p {
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=styles.css.map */
+
+.upperDiv:first-child{
+
+align-items: center;
+}
+
+
+.outputColumn {
+  min-height: 150px;
+}
+
+.Hive-name{
+  width:20vw;
+  height:30px;
+}
+
+#loadButton {
+  background-color: #f0f0f0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding:2px 6px;
+  
+}
+#loadButton:hover {
+background-color: rgb(186, 243, 243);
+border-color: blue;
+cursor:pointer;
+}
+
+#loadButton:active{
+  background-color: rgb(57, 187, 187);
+}
+

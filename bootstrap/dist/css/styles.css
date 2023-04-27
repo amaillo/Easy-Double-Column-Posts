@@ -1,0 +1,35 @@
+.tool-1 {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border: solid;
+  color: black; }
+
+header {
+  background-color: #4ae4e4; }
+
+body {
+  font-family: Roboto; }
+
+.outputColumn {
+  width: 90vw;
+  height: 100px; }
+
+.inputColumn {
+  width: 45vw; }
+
+.upperDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+p {
+  display: inline; }
+
+footer {
+  font-weight: bold;
+  background-color: black; }
+  footer p {
+    color: #bebebe; }
+
+/*# sourceMappingURL=styles.css.map */
